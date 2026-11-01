@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دعوة زفاف Sarah & Abdullah</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Cairo", sans-serif;
+      color: #5c493e;
+      background: #f8f2eb;
+    }
+
+    .invitation {
+      min-height: 100vh;
+      padding: 25px 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background:
+        linear-gradient(rgba(255, 250, 245, 0.72), rgba(255, 250, 245, 0.88)),
+        url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=85")
+        center / cover fixed;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 680px;
+      padding: 45px 25px;
+      text-align: center;
+      background: rgba(255, 252, 248, 0.95);
+      border: 1px solid #c6a56b;
+      outline: 1px solid #c6a56b;
+      outline-offset: 7px;
+      box-shadow: 0 15px 45px rgba(70, 45, 30, 0.15);
+    }
+
+    .top-text {
+      color: #9b7a45;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .invitation-text {
+      font-size: 16px;
+      line-height: 2.2;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    .couple-photos {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 25px 0;
+    }
+
+    .couple-photos img {
+      width: 115px;
+      height: 115px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #c6a56b;
+    }
+
+    .names {
+      direction: ltr;
+      font-family: "Playfair Display", serif;
+      font-size: clamp(38px, 8vw, 68px);
+      font-weight: 400;
+      line-height: 1.3;
+      color: #6b5144;
+    }
+
+    .ampersand {
+      color: #b08b52;
+      font-family: "Playfair Display", serif;
+      font-size: 35px;
+      margin: 5px 0;
+    }
+
+    .ornament {
+      color: #b08b52;
+      font-size: 25px;
+      margin: 20px 0;
+    }
+
+    .date {
+      color: #9b7a45;
+      font-size: 22px;
+      font-weight: 600;
+      margin: 25px 0 10px;
+    }
+
+    .details {
+      line-height: 2.2;
+      margin: 20px 0;
+    }
+
+    .countdown {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 25px 0;
+    }
+
+    .time-box {
+      min-width: 75px;
+      padding: 12px;
+      background: #fffaf4;
+      border: 1px solid #d8c5a4;
+    }
+
+    .time-box strong {
+      display: block;
+      direction: ltr;
+      font-family: "Playfair Display", serif;
+      font-size: 25px;
+      color: #9b7a45;
+    }
+
+    .time-box span {
+      font-size: 12px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      color: white;
+      background: #9b7a45;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #7f6237;
+    }
+
+    .button.secondary {
+      color: #8b6b3f;
+      background: transparent;
+      border: 1px solid #b99a67;
+    }
+
+    .closing {
+      margin-top: 30px;
+      color: #9b7a45;
+      line-height: 2;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 35px 18px;
+      }
+
+      .invitation-text {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="invitation">
+    <section class="card">
+
+      <p class="top-text">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</p>
+
+      <p class="invitation-text">
+        بكل الحب والسعادة، نتشرف بدعوتكم لمشاركتنا
+        فرحتنا في ليلة من أجمل ليالي العمر،
+        ليلة زفافنا التي تكتمل بوجودكم معنا.
+      </p>
+
+      <div class="ornament">✦</div>
+
+      <div class="couple-photos">
+        <img src="sarah.jpg" alt="Sarah">
+        <img src="abdullah.jpg" alt="Abdullah">
+      </div>
+
+      <h1 class="names">Sarah</h1>
+      <div class="ampersand">&</div>
+      <h1 class="names">Abdullah</h1>
+
+      <div class="ornament">❦</div>
+
+      <p class="invitation-text">
+        يسعدنا أن تكونوا بيننا لنحتفل ببداية حكاية جديدة،
+        ونسعد بوجودكم ودعواتكم الطيبة.
+      </p>
+
+      <p class="date">يوم [اليوم] الموافق [التاريخ]</p>
+
+      <div class="countdown" id="countdown">
+        <div class="time-box">
+          <strong id="days">00</strong>
+          <span>يوم</span>
+        </div>
+        <div class="time-box">
+          <strong id="hours">00</strong>
+          <span>ساعة</span>
+        </div>
+        <div class="time-box">
+          <strong id="minutes">00</strong>
+          <span>دقيقة</span>
+        </div>
+        <div class="time-box">
+          <strong id="seconds">00</strong>
+          <span>ثانية</span>
+        </div>
+      </div>
+
+      <div class="details">
+        <p><strong>مكان الحفل</strong></p>
+        <p>[اسم القاعة]</p>
+        <p>[عنوان القاعة]</p>
+        <p>في تمام الساعة [وقت الحفل]</p>
+      </div>
+
+      <div class="buttons">
+        <a
+          class="button"
+          href="https://maps.google.com/?q=اسم+القاعة+والمدينة"
+          target="_blank"
+          rel="noopener"
+        >
+          📍 موقع القاعة
+        </a>
+
+        <a
+          class="button secondary"
+          href="https://wa.me/201000000000?text=يسعدني%20تأكيد%20حضوري%20لحفل%20زفاف%20سارة%20وعبدالله"
+          target="_blank"
+          rel="noopener"
+        >
+          تأكيد الحضور
+        </a>
+      </div>
+
+      <p class="closing">
+        حضوركم يسعدنا ويزيد فرحتنا<br>
+        وبكم تكتمل أجمل لحظات العمر
+      </p>
+
+    </section>
+  </main>
+
+  <script>
+    // عدّلي تاريخ ووقت الحفل هنا
+    const weddingDate = new Date("2026-11-20T20:00:00").getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = weddingDate - now;
+
+      if (distance <= 0) {
+        document.getElementById("countdown").innerHTML =
+          "<p>أهلاً بكم في يوم فرحتنا!</p>";
+        return;
+      }
+
+      document.getElementById("days").textContent =
+        Math.floor(distance / (1000 * 60 * 60 * 24));
+
+      document.getElementById("hours").textContent =
+        Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+      document.getElementById("minutes").textContent =
+        Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+      document.getElementById("seconds").textContent =
+        Math.floor((distance % (1000 * 60)) / 1000);
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
+</body>
+</html>
